@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Vazirmatn:wght@100..900&display=swap");
+
+body {
+  font-family: "Vazirmatn", sans-serif;
+  background-color: #f7f7f7;
+}
+
+.card {
+  width: 350px;
+  margin: 30px auto;
+  border: 2px solid;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.avatar {
+  width: 100%;
+  display: block;
+}
+
+.data {
+  padding: 10px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro h2 {
+  margin-bottom: 10px;
+}
+
+.intro p {
+  line-height: 1.4;
+  color: #555;
+}
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 20px;
+  margin-top: 16px;
+}
+
+.skill {
+  padding: 2px 12px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  color: white;
+}
